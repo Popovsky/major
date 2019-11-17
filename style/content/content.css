@@ -1,0 +1,62 @@
+.content .container {
+    width: 85%;
+}
+
+.info-header {
+    background: #e89535;
+    color: white;
+    font-size: 25px;
+    padding: 5px 0 5px 20px;
+    margin: 15px 0;
+}
+
+select, input {
+    padding: 5px 10px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.row-form {
+    margin: 0!important;
+    padding: 15px 0;
+    position: relative;
+}
+
+.row-form>div.triangle {
+    position: absolute;
+    background: #e89535;
+    padding: 6px 8px 5px;
+    top: 15px;
+    right: 0;
+}
+
+.row-form>div>img {
+    height: 15px;
+}
+
+.row-form label {
+    color: white;
+    font-weight: normal;
+    padding-left: 0;
+}
+
+input::placeholder {
+    color: #a3a3a3;
+}
+
+.content p, .content span {
+    color: white;
+}
+
+.sel:after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e89535;
+    color: black;
+    padding: 6px 8px 5px;
+    pointer-events: none;
+    cursor: pointer;
+}

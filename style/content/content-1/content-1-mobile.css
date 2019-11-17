@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+    .content-1 {
+        padding: 20px 0 20px 0;
+    }
+
+    .row-form > div.triangle {
+        top: 40px;
+    }
+}

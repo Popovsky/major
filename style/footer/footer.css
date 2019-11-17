@@ -1,0 +1,14 @@
+.footer {
+    background: #0f0f0f;
+    padding: 15px 0;
+}
+
+.footer .container {
+    width: 85%;
+}
+
+.footer p {
+    color: white;
+    margin: 0;
+}
+

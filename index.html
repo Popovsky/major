@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <link rel="icon" href="major/img/favicon.ico">
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/header/header.css">
+        <link rel="stylesheet" href="style/header/header-mobile.css">
+        <link rel="stylesheet" href="style/underHeader/underHeader.css">
+        <link rel="stylesheet" href="style/underHeader/underHeader-mobile.css">
+        <link rel="stylesheet" href="style/content/content.css">
+        <link rel="stylesheet" href="style/content/content-1/content-1.css">
+        <link rel="stylesheet" href="style/content/content-1/content-1-mobile.css">
+        <link rel="stylesheet" href="style/content/content-2/content-2.css">
+        <link rel="stylesheet" href="style/content/content-2/content-2-mobile.css">
+        <link rel="stylesheet" href="style/content/content-3/content-3.css">
+        <link rel="stylesheet" href="style/content/content-3/content-3-mobile.css">
+        <link rel="stylesheet" href="style/content/content-4/content-4.css">
+        <link rel="stylesheet" href="style/content/content-4/content-4-mobile.css">
+        <link rel="stylesheet" href="style/content/content-5/content-5.css">
+        <link rel="stylesheet" href="style/content/content-5/content-5-mobile.css">
+        <link rel="stylesheet" href="style/content/content-6/content-6.css">
+        <link rel="stylesheet" href="style/upperFooter/upperFooter.css">
+        <link rel="stylesheet" href="style/upperFooter/upperFooter-mobile.css">
+        <link rel="stylesheet" href="style/footer/footer.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="awesome/css/all.css">
+        <title>Bootstrap 101 Template</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <div>
+                            <img src="major/img/Logo.png" alt="logo">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <div>
+                            <a href="#">вызвать курьера</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <div>
+                            <a href="#">расчитать стоимость</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <div>
+                            <a href="#">отслеживание груза</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <div>
+                            <a href="#">контакты</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="dropdown row">
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"><img src="major/img/location.png" alt="" class="location"></div>
+                            <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                                <a href="#" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <p>Выбор региона, города, телефона, название города, регион итд</p>
+                                    <img src="major/img/chevron-down.png" alt="" class="chevron-down">
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                                    <li><a href="#"><span>мурманск</span> </a></li>
+                                    <li><a href="#"><span>новосибирск</span> </a></li>
+                                    <li><a href="#"><span>екатеринбург</span> </a></li>
+                                    <li><a href="#"><span>самара</span> </a></li>
+                                    <li><a href="#"><span>челябинск</span> </a></li>
+                                    <li><a href="#"><span>омск</span> </a></li>
+                                </ul>
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="under-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                        <h1>компании, доверяющие нам свои грузы:</h1>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4"><img src="major/img/sever.png" alt="sever"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-4"><img src="major/img/derussa.png" alt="derussa"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-4"><img src="major/img/leroy.png" alt="leroy"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4"><img src="major/img/invitro.png" alt="invitro"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-4"><img src="major/img/bisquite.png" alt="bisquite"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-4"><img src="major/img/ultra.png" alt="ultra"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="buttons">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <a class="scrollTo" href="#price"><button class="button">рассчитать стоимость</button></a>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <a class="scrollTo" href="#courier"><button class="button">вызвать курьера</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/sn-S82mF_gw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="phone" class="bd-example bd-example-padded-bottom" data-toggle="modal" data-target="#gridSystemModal">
+                            <img src="major/img/small-play.png" alt="play">
+                        </div>
+                        <p>наше официальное видео</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-1">
+                <div class="container">
+                    <div class="text">
+                        <h2>блок рассчета стоимости</h2>
+                        <h4>Если у вас есть договор с Major Express воспользуйтесь личным кабинетом</h4>
+                    </div>
+                    <div class="row main">
+                        <div class="left col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                            <div class="info-header">Откуда забрать?</div>
+                            <div class="row row-form">
+                                <label class="col-lg-3 col-md-3 col-sm-3 col-xs-12">Страна</label>
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                                    <div class="sel">
+                                        <select>
+                                            <option value="">Россия</option>
+                                            <option value="">Украина</option>
+                                            <option value="">Польша</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-form">
+                                <label class="col-lg-3 col-md-3 col-sm-3 col-xs-12">Город</label>
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                                    <div class="sel">
+                                        <select>
+                                            <option value="">Москва</option>
+                                            <option value="">Сант-Петербург</option>
+                                            <option value="">Киев</option>
+                                            <option value="">Варшава</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="center col-lg-2 col-md-2 col-sm-2 col-xs-12"></div>
+                        <div class="right col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                            <div class="info-header">Куда привезти?</div>
+                            <div class="row row-form">
+                                <label class="col-lg-3 col-md-3 col-sm-3 col-xs-12">Страна</label>
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                                   <div class="sel">
+                                       <select>
+                                           <option value="">Россия</option>
+                                           <option value="">Украина</option>
+                                           <option value="">Польша</option>
+                                       </select>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="row row-form">
+                                <label class="col-lg-3 col-md-3 col-sm-3 col-xs-12">Город</label>
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                                    <div class="sel">
+                                        <select>
+                                            <option value="">Сант-Петербург</option>
+                                            <option value="">Москва</option>
+                                            <option value="">Киев</option>
+                                            <option value="">Варшава</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <span>Дата отправки</span>
+                            <img src="major/img/calendar.png" alt="calendar">
+                            <div class="input-group">
+                                <span type="text" name="start_date" id="calendar1" class="form-control start_date input-group-addon" data-inputmask="'alias':'mm/dd/yyyy'" data-mask="" value="">10 января с 9:00 до 22:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                            <div class="row row-form">
+                                <label class="col-lg-3 col-md-3 col-sm-3 col-xs-12">Тип груза</label>
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                                    <div class="sel">
+                                        <select>
+                                            <option value="">Документы</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                            <div class="row row-form">
+                                <label class="col-lg-3 col-md-3 col-sm-3 col-xs-12">Вес груза</label>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="number" value="0.0">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                            <div class="row row-form">
+                                <label class="col-lg-3 col-md-3 col-sm-3 col-xs-12">Габариты</label>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    <input type="number" placeholder="Длина (см)">
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    <input type="number" placeholder="Ширина (см)">
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    <input type="number" placeholder="Высота (см)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <img src="major/img/plus.png" alt="plus">
+                            <span>Добавить груз/документ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <button class="button">сделать заказ</button>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <a id="price" name="price"><button class="button">рассчитать</button></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div>
+                                <img src="major/img/geo-location.png" alt="geo-location">
+                                <p>Отправить из офиса</p>
+                                <p><span>Цена: </span><span>1500p</span></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div>
+                                <img src="major/img/desktop.png" alt="desktop">
+                                <p>Вызвать курьера онлайн</p>
+                                <p><span>Цена: </span><span>1500p</span></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div>
+                                <img src="major/img/phone.png" alt="phone">
+                                <p>Вызвать курьера по телефону</p>
+                                <p><span>Цена: </span><span>1500p</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 info">
+                            <button>Отделение №1</button>
+                            <button>Отделение №2</button>
+                            <p>ул. Барклая, 12/12, Москва, 121309</p>
+                            <p>Пн-Вск  10:00-21:00</p>
+                            <p>8(495)737-52-23</p>
+                            <p>
+                                Дополнительная информация, текст,
+                                Дополнительная информация, текст
+                                Дополнительная информация, текст,
+                                Дополнительная информация
+                            </p>
+                        </div>
+                        <div  class="col-lg-7 col-md-7 col-sm-7 col-xs-12 map">
+                            <div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53987.446661925664!2d35.173923658499106!3d47.837334678943385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc674a788757d9%3A0x55b545415818537!2z0JfQkNCf0J7QoNCe0JbQrNCV!5e0!3m2!1sru!2sua!4v1573385576094!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p>Введите адрес</p>
+                        <img src="major/img/chevron-down.png" alt="chevron">
+                        <p>Укажите контактные данные</p>
+                        <img src="major/img/chevron-down.png" alt="chevron">
+                        <p>Укажите детали</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 left">
+                            <div class="info-header">Адрес отправителя</div>
+                            <div class="row row-form">
+                                <label class="col-lg-3 col-md-3 col-sm-3">Страна</label>
+                                <input type="text" class="col-lg-7 col-md-7 col-sm-7">
+                            </div>
+                            <div class="row row-form">
+                                <label class="col-lg-3 col-md-3 col-sm-3">Грод</label>
+                                <input type="text" class="col-lg-7 col-md-7 col-sm-7">
+                            </div>
+                            <div class="row row-form">
+                                <label class="col-lg-3 col-md-3 col-sm-3">Адрес</label>
+                                <input type="text" class="col-lg-7 col-md-7 col-sm-7" placeholder="Улица, дом, офис, квартира">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 center"></div>
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 right">
+                            <div class="info-header">Адрес получателя</div>
+                            <div class="row row-form">
+                                <label class="col-lg-3 col-md-3 col-sm-3">Страна</label>
+                                <input type="text" class="col-lg-7 col-md-7 col-sm-7">
+                            </div>
+                            <div class="row row-form">
+                                <label class="col-lg-3 col-md-3 col-sm-3">Грод</label>
+                                <input type="text" class="col-lg-7 col-md-7 col-sm-7">
+                            </div>
+                            <div class="row row-form">
+                                <label class="col-lg-3 col-md-3 col-sm-3">Адрес</label>
+                                <input type="text" class="col-lg-7 col-md-7 col-sm-7" placeholder="Улица, дом, офис, квартира">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 left">
+                            <div class="info-header">Отправитель</div>
+                            <div class="row row-form">
+                                <label class="col-lg-5 col-md-5 col-sm-5">Имя, фамилия</label>
+                                <input type="text" class="col-lg-7 col-md-7 col-sm-7">
+                            </div>
+                            <div class="row row-form">
+                                <label class="col-lg-5 col-md-5 col-sm-5">Название фирмы</label>
+                                <input type="text" class="col-lg-7 col-md-7 col-sm-7">
+                            </div>
+                            <div class="row row-form col">
+                                <label class="col-lg-5 col-md-5 col-sm-5">Телефон</label>
+                                <input type="text" class="col-lg-7 col-md-7 col-sm-7 phone">
+                            </div>
+                            <div class="row row-form">
+                                <label class="col-lg-5 col-md-5 col-sm-5">Email</label>
+                                <input type="text" class="col-lg-7 col-md-7 col-sm-7 email">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 center"></div>
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 right">
+                            <div class="info-header">Получатель</div>
+                            <div class="row row-form">
+                                <label class="col-lg-5 col-md-5 col-sm-5">Имя, фамилия</label>
+                                <input type="text" class="col-lg-7 col-md-7 col-sm-7">
+                            </div>
+                            <div class="row row-form">
+                                <label class="col-lg-5 col-md-5 col-sm-5">Название фирмы</label>
+                                <input type="text" class="col-lg-7 col-md-7 col-sm-7">
+                            </div>
+                            <div class="row row-form">
+                                <label class="col-lg-5 col-md-5 col-sm-5">Телефон</label>
+                                <input type="text" class="col-lg-7 col-md-7 col-sm-7 phone">
+                            </div>
+                            <div class="row row-form">
+                                <label class="col-lg-5 col-md-5 col-sm-5">Email</label>
+                                <input type="text" class="col-lg-7 col-md-7 col-sm-7 email">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 left">
+                            <div>
+                                <p>Дата отправки</p>
+                                <p><span class="orange">10 января с 9:00 до 22:00</span></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 right">
+                            <div>
+                                <p>Документ, 1,5 кг</p>
+                                <p>10х10х8</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 left">
+                            <div>
+                                <p>Забрать из России, Москва</p>
+                                <p>Привести в Россию, Сант-Петербург</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 right">
+                            <div>
+                                <p>Отправить из офиса</p>
+                                <p>Отделение №1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 left">
+                            <div>
+                                <p>Предполагаемая дата доставки</p>
+                                <p><span class="orange">12 января с 9:00 до 22:00</span></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 right">
+                            <div>
+                                <p>Получатель - Россия, Москва, адрес</p>
+                                <p>Имя, Фамилия, Телефон, Email</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 left"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 right">
+                            <div>
+                                <p>Стоимость доставки <span class="orange">3200р</span></p>
+                                <p>
+                                    <input type="checkbox" id="i1">
+                                    <label class="checkmark" for="i1"></label>
+                                    Я подтверждаю согласие с
+                                    <span class="orange-under">условиями текст</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <img src="major/img/plus.png" alt="plus">
+                            <span class="orange-under">Добавить груз/документ</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    <input type="checkbox" id="i2">
+                                    <label class="checkmark" for="i2"></label>
+                                    <span class="orange">Доставка в руки</span>
+                                </div>
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <p>Описание услуги, текст, описание текст, описание</p>
+                                </div>
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    <p>Стоимость услуги</p>
+                                    <span class="orange">600p</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    <input type="checkbox" id="i3">
+                                    <label class="checkmark" for="i3"></label>
+                                    <span class="orange">Доп услуга</span>
+                                </div>
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <p>Описание услуги, текст, описание текст, описание</p>
+                                </div>
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    <p>Стоимость услуги</p>
+                                    <span class="orange">600p</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 call">
+                            <a id="courier" name="courier"><button class="button">вызвать курьера</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="text">
+                                <h2>региональное промо</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div>
+                                <img src="major/img/bell.png" alt="bell">
+                                <p>Бесплатное уведомление о доставке</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div>
+                                <img src="major/img/shield.png" alt="shield">
+                                <p>Страхование всех шрузов по умолчанию</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div>
+                                <img src="major/img/house2.png" alt="house2">
+                                <p>Пункт выдачи заказов интернет магазинов (OZON, My-Shop)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div>
+                                <img src="major/img/fedex.png" alt="fedex">
+                                <p>Международные отправления по линии FedEx Express</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div>
+                                <img src="major/img/clock.png" alt="clock">
+                                <p>Срок доставки по России - от 1 дня</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="upperFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div>
+                            <div>
+                                <div><img src="major/img/phone-sm.png" alt="phone=sm"></div>
+                                <span>8(495)646-20-49</span>
+                            </div>
+                            <div>
+                                <div><img src="major/img/mail.png" alt="mail"></div>
+                                <span>major@gmail.com</span>
+                            </div>
+                            <div>
+                                <div><img src="major/img/house.png" alt="house"></div>
+                                <span>ул. Добролюбова, д. 2, стр. 1, Москва, 121059</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                        <div class="row">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42855.14393966903!2d35.15140765077006!3d47.83094285251485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc674a788757d9%3A0x55b545415818537!2z0JfQkNCf0J7QoNCe0JbQrNCV!5e0!3m2!1sru!2sua!4v1573399186256!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <p>Major Express</p>
+                    <p>2019</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

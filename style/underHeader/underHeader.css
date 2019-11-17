@@ -1,0 +1,84 @@
+.under-header {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../major/img/main.png");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.under-header .container {
+    width: 95%;
+}
+
+.under-header .container>.row:first-child>div:first-child>h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+.under-header .container>.row:first-child>div:first-child>.row {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.under-header .container>.row:first-child>div:first-child>.row>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.under-header .container>.row:first-child>div:first-child>.row>div>img {
+    max-width: 100%;
+    max-height: 100px;
+    opacity: 0.7;
+}
+
+.under-header .container>.row:first-child>div:last-child>.buttons {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../major/img/shadow-block.png");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    padding: 30px 25px;
+}
+
+.under-header .container>.row:first-child>div:last-child>.buttons>div {
+    text-align: center;
+}
+
+.under-header .container>.row:last-child>div {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.under-header .container>.row:last-child>div>div {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../major/img/small-play-shadow.png");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    padding: 10px 13px 10px 20px;
+    cursor: pointer;
+}
+
+.under-header .container>.row:last-child>div>div>img {
+    height: 30px;
+}
+
+.under-header .container>.row:last-child>div>p {
+    margin: 0 20px;
+    color: white;
+}
+
+.under-header .container>.row:last-child>div>p:first-letter {
+    text-transform: uppercase;
+}
+
+.under-header .modal .modal-dialog {
+    width: 710px;
+}
+
+.under-header .modal .modal-dialog .modal-body {
+    height: 360px;
+}

@@ -1,0 +1,21 @@
+.content-6 {
+    background: #666666;
+}
+
+.content-6 .text {
+    text-align: center;
+}
+
+.content-6 .text h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.content-6 .container>.row>div>div {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.content-6 .container>.row>div>div>img {
+    height: 57px;
+}

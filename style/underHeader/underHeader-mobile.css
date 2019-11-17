@@ -1,0 +1,10 @@
+@media(max-width: 767px) {
+    .under-header .modal .modal-dialog {
+        width: 100%;
+        margin: 0;
+    }
+
+    .under-header .modal .modal-dialog .modal-body {
+        height: 360px;
+    }
+}

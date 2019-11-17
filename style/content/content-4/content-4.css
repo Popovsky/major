@@ -1,0 +1,12 @@
+.content-4 {
+    background: #666666;
+    padding: 25px 0 40px;
+}
+
+.content-4 .container .row>div:first-child {
+    padding-left: 0;
+}
+
+.content-4 .container .row>div:last-child {
+    padding-right: 0;
+}

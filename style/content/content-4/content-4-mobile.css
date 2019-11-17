@@ -1,0 +1,5 @@
+@media(max-width: 767px) {
+    .content-4 .container .row>div {
+        padding: 0;
+    }
+}

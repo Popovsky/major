@@ -1,0 +1,56 @@
+.content-1 {
+    background: #333331;
+    padding: 100px 0 35px 0;
+}
+
+.content-1 .container>.row>div {
+    padding: 0;
+}
+
+.content-1 .container .row-form>div {
+    padding: 0;
+}
+
+.content-1 .text {
+    text-align: center;
+}
+
+.content-1 .text h2 {
+    text-transform: uppercase;
+    margin: 15px;
+    color: white;
+}
+
+.content-1 .text h4 {
+    margin: 15px;
+    color: white;
+}
+
+.content-1 .container>.row:last-child>div {
+    padding: 0;
+    margin-top: 15px;
+}
+
+.content-1 .container>.row:last-child span:last-child {
+    color: #e89535;
+    border-bottom: 1px dashed #e89535;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.content-1 .container>.row:last-child img {
+    height: 25px;
+    margin: 0 15px 0 30px;
+}
+
+.content-1 .container>.row:last-child>div>.input-group {
+    display: inline-grid;
+}
+
+.content-1 .container>.row:last-child>div>.input-group>span {
+    padding: 0;
+    height: 17px;
+    background: transparent;
+    border-top: none;
+    cursor: pointer;
+}

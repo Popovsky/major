@@ -1,0 +1,36 @@
+.upperFooter>.container {
+    margin: 0;
+    width: 100%;
+}
+
+.upperFooter>.container>.row {
+    display: flex;
+}
+
+.upperFooter .container>.row>div:first-child {
+    background: #333331;
+    padding: 95px 8%;
+}
+
+.upperFooter .container>.row>div:first-child>div>div {
+    display: flex;
+    padding: 12px 0;
+}
+
+.upperFooter .container>.row>div:first-child div>img {
+    width: 30px;
+}
+
+.upperFooter .container>.row>div:first-child div>span {
+    color: white;
+    padding-left: 15px;
+}
+
+.upperFooter .container>.row>div:last-child>div {
+    height: 100%;
+}
+
+.upperFooter .container>.row>div:last-child>div>iframe {
+    width: 100%;
+    height: 100%;
+}

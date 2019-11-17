@@ -1,0 +1,16 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+    text-transform: uppercase;
+    background: #e89535;
+    color: white;
+    text-align: center;
+    min-width: 205px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #e89535;
+    margin: 10px 0;
+    outline: none!important;
+}

@@ -1,0 +1,9 @@
+@media(max-width: 767px) {
+    .content-5 .center>div {
+        display: block;
+    }
+
+    .content-5 .left, .content-5 .right {
+        padding: 0;
+    }
+}

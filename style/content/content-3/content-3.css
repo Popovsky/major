@@ -1,0 +1,132 @@
+.content-3 {
+    background: #333331;
+    padding: 25px 0;
+}
+
+.content-3 .container .row:first-child {
+    text-align: center;
+}
+
+.content-3 .container .row:first-child div:first-child {
+    text-align: right;
+}
+
+.content-3 .container .row:first-child div:last-child {
+    text-align: left;
+}
+
+.content-3 .container .row:nth-child(2) {
+    display: flex;
+}
+
+.content-3 .container .row:nth-child(2)>div>div {
+    text-align: center;
+    background: #666666;
+    padding: 30px 25px;
+    position: relative;
+    min-height: 230px;
+    border-radius: 10px;
+    margin: 25px 0;
+    border: 2px solid transparent;
+}
+
+.content-3 .container .row:nth-child(2)>div>div:hover {
+    border: 2px solid #e89535;
+}
+
+.content-3 .container .row:nth-child(2)>div:first-child {
+    padding-left: 0;
+}
+
+.content-3 .container .row:nth-child(2)>div:last-child {
+    padding-right: 0;
+}
+
+.content-3 .row:nth-child(2) div img {
+    height: 65px;
+}
+
+.content-3 .row:nth-child(2) div p {
+    font-size: 20px;
+}
+
+.content-3 .row:nth-child(2) div>p:last-child {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.content-3 .row:nth-child(2) div>p:last-child>span:first-child {
+    font-size: 16px;
+}
+
+.content-3 .row:nth-child(2) div>p:last-child>span:last-child {
+    color: #e89535;
+}
+
+.content-3 .row:nth-child(3) {
+    display: flex;
+}
+
+.content-3 .row:nth-child(3) .info {
+    background: #666666;
+    border-radius: 10px 0 0 10px;
+    padding: 15px 25px;
+}
+
+.content-3 .row:nth-child(3) .map {
+    padding: 0;
+}
+
+.content-3 .row:nth-child(3) .map>div {
+    height: 100%;
+}
+
+.content-3 .row:nth-child(3) .map>div>iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
+
+.content-3 .row:nth-child(3) button {
+    background: #2f2f2f;
+    color: white;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin: 15px 0;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+.content-3 .row:nth-child(3) button:hover {
+    border: 2px solid #e89535;
+}
+
+.content-3 .container>.row:nth-child(4) {
+    display: flex;
+    padding: 40px 0 25px;
+}
+
+.content-3 .row:nth-child(4)>img {
+    transform: rotate(270deg);
+    position: relative;
+    top: 5px;
+    height: 10px;
+    padding: 0 10px;
+}
+
+.content-3 .row:nth-child(4) p:nth-child(3) {
+    color: #e89535;
+}
+
+.content-3 .row:nth-child(5)>div:first-child {
+    padding-left: 0;
+}
+
+.content-3 .row:nth-child(5)>div:last-child {
+    padding-right: 0;
+}
